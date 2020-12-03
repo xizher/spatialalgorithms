@@ -28,3 +28,12 @@ export declare function distanceFromTwoPoint ([x1, y1] : [number, number], [x2, 
  * @returns 距离结果
  */
 export declare function distanceFromTwoPointByManhattan ([x1, y1] : [number, number], [x2, y2] : [number, number]) : number
+
+/**
+ * 计算两点间的中点
+ * @param point1 坐标点1
+ * @param point2 坐标点2
+ * @returns 结果中点
+ */
+export declare function centerFromTwoPoint ([x1, y1] : [number, number], [x2, y2] : [number, number]) : [number, number]
+
