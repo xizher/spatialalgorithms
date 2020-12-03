@@ -12,3 +12,19 @@ export declare function polygonDirection (coordinates: [][][]) : 1 | -1
  * @returns -1 为凹顶点，1 为凸顶点
  */
 export declare function concavityAndConvexityOfPolygonVertices (coordinates: [][][], [x, y]: [number, number]) : 1 | -1
+
+/**
+ * 计算两点间的直线距离
+ * @param point1 点坐标1
+ * @param point2 点坐标2
+ * @returns 距离结果
+ */
+export declare function distanceFromTwoPoint ([x1, y1] : [number, number], [x2, y2] : [number, number]) : number
+
+/**
+ * 计算两点间的曼哈顿距离
+ * @param point1 坐标点1
+ * @param point2 坐标点2
+ * @returns 距离结果
+ */
+export declare function distanceFromTwoPointByManhattan ([x1, y1] : [number, number], [x2, y2] : [number, number]) : number
