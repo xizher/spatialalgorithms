@@ -37,3 +37,10 @@ export declare function distanceFromTwoPointByManhattan ([x1, y1] : [number, num
  */
 export declare function centerFromTwoPoint ([x1, y1] : [number, number], [x2, y2] : [number, number]) : [number, number]
 
+/**
+ * 计算点的对称点
+ * @param point1 点
+ * @param point2 对称中心
+ */
+export declare function symmetryPoint ([x, y]: [number, number], [cx, cy]: [number, number]) : [number, number]
+

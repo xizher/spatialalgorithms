@@ -12,3 +12,10 @@ export function centerFromTwoPoint ([x1, y1], [x2, y2]) {
     (y1 + y2) / 2
   ]
 }
+
+export function symmetryPoint ([x, y], [cx, cy]) {
+  return [
+    cx - (x - cx),
+    cy - (y - cy)
+  ]
+}
